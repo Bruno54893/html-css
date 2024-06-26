@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+
+}
+header{
+    background-color: rgba(45, 119, 45, 0.548) ;
+}
+div.video{
+    background-color: aqua;
+    margin-bottom: 20px;
+}

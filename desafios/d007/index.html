@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexivel</title>
+    <style>
+        img{
+            width: 100%;
+        }
+        main{
+            min-width: 300px;
+            max-width: 1300px;
+            margin: auto;
+            margin-top: 50px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(34, 34, 34, 0.075) 5px 6px 3px;
+        }
+        body{
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Você esta vendo a iamgem completa? Experimente ampliar o  tamanho da sua janela para aproveita melhor a experiência.</h1>
+        <picture>
+            <source media="(max-width:600px )" srcset="paisagem-p.png">
+            <source media="(min-width:1200px )"  srcset="paisagem-g.png">
+            <img src="paisagem-m.png" alt="paisagem-m">
+        </picture>
+    </main>
+</body>
+</html>
