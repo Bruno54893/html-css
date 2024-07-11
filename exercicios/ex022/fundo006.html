@@ -6,21 +6,31 @@
     <title>Tamho da imagem de fundo</title>
     <style>
         body{
-            height: 97vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+            color > image > position > repeat > [size] > attachment
+
+            veja um exepmlo de shorthand a baixo
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
         main{
             background-color: white;
-            width: 400px;
+            min-width: 200px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid black;
-            border-radius:7px ;
-            
+            border-radius: 7px ; 
         }
     </style>
 </head>
@@ -28,6 +38,23 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum undeLorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima iure, consequuntur quam, sapiente facilis debitis, tempora nostrum voluptatem sequi praesentium alias. Quod reiciendis est, optio ipsa assumenda ex dolorum unde
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores distinctio dolorum veniam voluptatibus accusantium ad consequatur quae illum, non necessitatibus vel. Corporis nemo doloribus labore fugit dolorum est voluptatibus mollitia.
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus illo vitae a adipisci aliquid dolor deleniti cupiditate eius velit aliquam dignissimos ea soluta dolore, quibusdam harum sequi, ab nobis.
