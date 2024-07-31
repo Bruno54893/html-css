@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas grande</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            text-align: center;
+            font-variant: small-caps;
+            font-size: 50px;
+        }
+
+        table {
+            width: 800px;
+            border-collapse: collapse;
+            margin: auto;
+            background-color: white;
+        }
+
+        tfoot {
+            background-color: rgb(211, 211, 211);
+        }
+
+        td.foot-hab {
+            text-align: center;
+            color: white;
+        }
+        
+        th.foot-th{
+            width: 331px;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 20px;
+            background-color: rgb(211, 211, 211);
+            color: white;
+            
+        }
+
+        td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 15px;
+        }
+
+        td.posicao {
+            text-align: center;
+            width: 50px;
+        }
+
+        td.populacao {
+            text-align: right;
+            padding-right: 8px;
+        }
+
+        td.porcentagem {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--ANATOMIA DE TABELAS GRANDES
+    TABLE
+        THEAD
+            TR, TD, TH
+        TBODY
+            TR, TD, TH 
+        TFOOT
+            TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População</th>
+                <th>% da pop. total</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr> <!--Linha 1 São paulo-->
+                <td class="posicao">1</td>
+                <td>São Paulo</td>
+                <td class="populacao">44.411.238</td>
+                <td class="porcentagem">21,88%</td>
+            </tr>
+
+            <tr> <!--Linha 2 Minas Gerais-->
+                <td class="posicao">2</td>
+                <td>Minas Gerais</td>
+                <td class="populacao">20.538.718</td>
+                <td class="porcentagem">10,11%</td>
+            </tr>
+
+            <tr> <!--Linha 3 Rio de Janeiro-->
+                <td class="posicao">3</td>
+                <td>Rio de Janeiro</td>
+                <td class="populacao">16.054.524</td>
+                <td class="porcentagem">7,91%</td>
+            </tr>
+            
+            <tr> <!--Linha 4 Bahia-->
+                <td class="posicao">4</td>
+                <td>Bahia</td>
+                <td class="populacao">14.141.626</td>
+                <td class="porcentagem">6,96%</td>
+            </tr>
+
+            <tr> <!--Linha 5 Paraná-->
+                <td class="posicao">5</td>
+                <td>Paraná</td>
+                <td class="populacao">11.444.380</td>
+                <td class="porcentagem">5,64%</td>
+            </tr>
+            
+            <tr> <!--Linha 6 Rio Grande do Sul-->
+                <td class="posicao">6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="populacao">10.882.965</td>
+                <td class="porcentagem">5,36%</td>
+            </tr>
+
+            <tr> <!--Linha 7 Pernambuco-->
+                <td class="posicao">7</td>
+                <td>Pernambuco</td>
+                <td class="populacao">9.058.931</td>
+                <td class="porcentagem">4,46%</td>
+            </tr>
+
+            <tr> <!--Linha 8 Ceará-->
+                <td class="posicao">8</td>
+                <td>Ceará</td>
+                <td class="populacao">8.794.957</td>
+                <td class="porcentagem">4,33%</td>
+            </tr>
+
+            <tr> <!--Linha 9 Pará-->
+                <td class="posicao">9</td>
+                <td>Pará</td>
+                <td class="populacao">8.121.025</td>
+                <td class="porcentagem">4,1%</td>
+            </tr>
+
+            <tr> <!--Linha 10 Santa Catarina-->
+                <td class="posicao">10</td>
+                <td>Santa Catarina</td>
+                <td class="populacao">7.610.361</td>
+                <td class="porcentagem">3,75%</td>
+            </tr>
+
+            <tr> <!--Linha 11 Goiás-->
+                <td class="posicao">11</td>
+                <td>Goiás</td>
+                <td class="populacao">7.056.495</td>
+                <td class="porcentagem">3,47%</td>
+            </tr>
+
+            <tr> <!--Linha 12 Maranhão-->
+                <td class="posicao">12</td>
+                <td>Maranhão</td>
+                <td class="populacao">6.775.805</td>
+                <td class="porcentagem">3,34%</td>
+            </tr>
+
+            <tr> <!--Linha 13 Paráiba-->
+                <td class="posicao">13</td>
+                <td>Paráiba</td>
+                <td class="populacao">3.974.687</td>
+                <td class="porcentagem">1,96%</td>
+            </tr>
+
+            <tr> <!--Linha 14 Amazonas-->
+                <td class="posicao">14</td>
+                <td>Amazonas</td>
+                <td class="populacao">3.941.613</td>
+                <td class="porcentagem">1,94%</td>
+            </tr>
+
+            <tr> <!--Linha 15 Espírito Santo-->
+                <td class="posicao">15</td>
+                <td>Espírito Santo</td>
+                <td class="populacao">3.833.712</td>
+                <td class="porcentagem">1,89%</td>
+            </tr>
+
+            <tr> <!--Linha 16 Mato Grosso-->
+                <td class="posicao">16</td>
+                <td>Mato Grosso</td>
+                <td class="populacao">3.658.649</td>
+                <td class="porcentagem">1,8%</td>
+            </tr>
+
+            <tr> <!--Linha 17 Rio Grande do Norte-->
+                <td class="posicao">17</td>
+                <td>Rio Grande do Norte</td>
+                <td class="populacao">3.302.729</td>
+                <td class="porcentagem">1,63%</td>
+            </tr>
+
+            <tr> <!--Linha 18 Piauí-->
+                <td class="posicao">18</td>
+                <td>Piauí</td>
+                <td class="populacao">3.271.199</td>
+                <td class="porcentagem">1,61%</td>
+            </tr>
+
+            <tr> <!--Linha 19 Alagoas-->
+                <td class="posicao">19</td>
+                <td>Alagoas</td>
+                <td class="populacao">3.127.683</td>
+                <td class="porcentagem">1,54%</td>
+            </tr>
+
+            <tr> <!--Linha 20 Distrito Federal-->
+                <td class="posicao">20</td>
+                <td>Distrito Federal</td>
+                <td class="populacao">2.817.381</td>
+                <td class="porcentagem">1,39%</td>
+            </tr>
+
+            <tr> <!--Linha 21 Mato Grosso do Sul-->
+                <td class="posicao">21</td>
+                <td>Mato Grosso do Sul</td>
+                <td class="populacao">2.757.013</td>
+                <td class="porcentagem">1,36%</td>
+            </tr>
+
+            <tr> <!--Linha 22 Sergipe-->
+                <td class="posicao">22</td>
+                <td>Sergipe</td>
+                <td class="populacao">2.209.558</td>
+                <td class="porcentagem">1,09%</td>
+            </tr>
+
+            <tr> <!--Linha 23 Rondônia-->
+                <td class="posicao">23</td>
+                <td>Rondônia</td>
+                <td class="populacao">1.581.196</td>
+                <td class="porcentagem">0,78%</td>
+            </tr>
+
+            <tr> <!--Linha 24 Tocantins-->
+                <td class="posicao">24</td>
+                <td>Tocantins</td>
+                <td class="populacao">1.511.460</td>
+                <td class="porcentagem">0,74%</td>
+            </tr>
+
+            <tr> <!--Linha 25 Acre-->
+                <td class="posicao">25</td>
+                <td>Acre</td>
+                <td class="populacao">830.018</td>
+                <td class="porcentagem">0,41%</td>
+            </tr>
+
+            <tr> <!--Linha 26 Amapá-->
+                <td class="posicao">26</td>
+                <td>Amapá</td>
+                <td class="populacao">733.759</td>
+                <td class="porcentagem">0,36%</td>
+            </tr>
+
+            <tr> <!--Linha 27 Roraima-->
+                <td class="posicao">27</td>
+                <td>Roraima</td>
+                <td class="populacao">636.707</td>
+                <td class="porcentagem">0,31%</td>
+            </tr>
+        </tbody>
+    </table>  
+    <table>
+        <tfoot>
+            <tr>
+                <th class="foot-th">Total de Habitantes</th>
+                <td class="foot-hab"><strong>203.062.512</strong></td>
+            </tr>
+        </tfoot>
+    </table>      
+</body>
+</html>
